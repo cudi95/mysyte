@@ -1,0 +1,168 @@
+body{
+    background:#c7c7c7;
+    margin:12px;
+    font-family:Arial;
+}
+.theme-color,span.theme-color{color:#1ba1c7}
+a{
+    color:#1ba1c7;
+    text-decoration: none;
+}
+a:hover{text-decoration:underline}
+#wrapper{
+    margin:0 auto;
+    width:710px
+}
+#container{
+    margin-top:0;
+    background:url(../images/containe.png);
+    padding:6px;
+    width:698px;
+    float:left;
+    padding-bottom:24px;
+    padding-top:24px
+}
+#top-bg{
+    float:left;
+    background:url(../images/layout_b.png) top left;
+    width:698px;
+    height:19px;
+    position:absolute;
+    top:-19px
+}
+#bg-container{
+    float:left;
+    background:url(../images/layout_b.png) top;
+    position:relative
+}
+.main{
+    float:left;
+    width:698px;
+    padding-top:0;
+    padding-bottom:0;
+    position:relative;
+    margin-bottom:0
+}
+.main .content{
+    width:600px;
+    margin:0 auto;
+    background:#fff url(../images/content_.png) no-repeat top;
+    padding:30px
+}
+.bottom-bg{
+    float:left;
+    background:url(../images/layout_b.png) bottom right;
+    width:698px;
+    height:19px;
+    position:absolute;
+    bottom:-19px
+}
+.item{
+    margin-bottom:30px;
+    margin-top:0;
+    float:left;
+    width: 600px;
+}
+#footer{
+    background:url(../images/h2_borde.png) repeat-x top;
+    padding-top:0;
+    color:#888;
+    margin-top:15px;
+    float:left;
+    width: 600px;
+    height: 60px;
+}
+#footer-text{
+    height:32px;
+    line-height:20px;
+    font-size: 13pt;
+}
+#footer-logo{
+    text-align:right;
+    height:47px;
+    width: 200px;
+    margin-top: 16px;
+    overflow:hidden;
+    background-image: url(../images/oggettoweb.png);
+}
+
+h1{font-size:65px;color:#656565;margin:0;text-align:center}
+h2.h-border{font-size:30px}
+.h-border{
+    background:url(../images/h2_borde.png) repeat-x bottom;
+    padding-bottom:10px;
+    margin:0;
+    margin-bottom:30px;
+    margin-top:15px;
+    padding-bottom:15px
+}
+h3.h-border{font-size:30px;padding-bottom:17px}
+h2.jobtitle{font-size:18px;color:#bbb;margin:0;text-align:center;background:0}
+.textblock{
+    letter-spacing:0;
+    padding:0 0 0 70px;
+    background:#fff url(../images/quote_me.png) no-repeat 0 5px;color:#777;
+    margin-bottom:15px;
+    padding-bottom:10px;
+    height:80px;
+    vertical-align:middle;
+    display:table-cell;
+    margin-top:15px;
+    font-size:22px;
+    font-style:italic;
+    line-height:32px
+}
+
+
+.grid_12,.grid_9,.grid_6,.grid_8,.grid_4,.grid_3{float:left}
+.grid_12{width:600px}.grid_9{margin-right:30px;width:435px}
+.grid_6{margin-right:30px;width:285px}.grid_8{margin-right:30px;width:390px}
+.grid_4{margin-right:20px;width:180px}.grid_3{margin-right:20px;width:135px}
+.last{margin-right:0}
+.title,.description1,.description2{
+    margin:6px 0
+}
+.title{margin-top:0;font-size:15px;color:#505050}
+.description1,.description2{font-size:12px;color:#777}
+.description2{color:#c0c0c0;font-style:italic}
+
+ul{list-style:square;margin-left:30px}
+ol li{padding-bottom:5px;padding-left:5px}
+ul.checklist,ul.list{list-style:none;margin:0;margin-bottom:15px}
+ol.checklist{margin-left:30px}
+ul.checklist li,ul.list li{
+    background:url(../images/bullet00.png) no-repeat left 10px;border-bottom:1px #aaa dotted;
+    padding:4px 0 5px 20px
+}
+ul.list li{background:url(../images/list_bg0.png) no-repeat left 10px}
+
+ul.list li.phone{
+    background:url(../images/phone000.png) no-repeat left 7px;
+    padding-left:35px;
+    padding-bottom:8px;
+    padding-top:6px
+}
+ul.list li.email{
+    background:url(../images/email000.png) no-repeat left 7px;
+    padding-left:35px;
+    padding-bottom:8px;
+    padding-top:6px
+}
+ul.list li.email a {
+    text-decoration: none;
+    color: #000000;
+}
+ul.list li.email a:hover {
+    text-decoration: underline;
+    color: #0088CC;
+}
+ul.list li.address{
+    background:url(../images/address0.png) no-repeat left 5px;
+    padding-left:35px;
+    padding-bottom:8px;
+    padding-top:6px;
+}
+
+.left{float:left}
+.right{float:right}
+.clear{clear:both;overflow:hidden}
